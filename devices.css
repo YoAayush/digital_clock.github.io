@@ -1,0 +1,40 @@
+@media screen and (max-width: 490px){
+    .container{
+        width: 300px;
+        height: 250px;
+    }
+    #clock{
+        font-size: 44px;
+    }
+    .head{
+        width: 100%;
+        margin: 2rem auto;
+    }
+    .heading{
+        width: fit-content;
+        margin: auto;
+        font-size: 50px;
+        box-shadow: 0px 5px 25px rgb(97, 93, 93);
+    }
+}
+
+@media screen and (max-width: 260px){
+    .container{
+        width: 200px;
+        height: 200px;
+        margin: 2rem auto;
+    }
+    #clock{
+        font-size: 24px;
+    }
+    .head{
+        width: 100%;
+        margin: 2rem auto;
+    }
+    .heading{
+        width: fit-content;
+        margin: auto;
+        font-size: 35px;
+        box-shadow: 0px 5px 25px rgb(97, 93, 93);
+    }
+}
